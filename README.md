@@ -1,16 +1,125 @@
-# React + Vite
+# Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and efficient Employee Management System built using **React + Vite + Tailwind CSS**.  
+This system helps track employee tasks such as *new tasks, accepted tasks, completed tasks, and failed tasks*.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### 👨‍💼 Admin Features
+- Admin login
+- Create new tasks for employees
+- Assign tasks to any employee
+- Auto update employee task counts (new, active, completed, failed)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 👩‍🏭 Employee Features
+- Employee login
+- View assigned tasks
+- Accept task
+- Mark task as Completed
+- Mark task as Failed
+- Live task status updates
 
-## Expanding the ESLint configuration
+### 📦 Other Features
+- LocalStorage-based persistent data
+- Context API for global state management
+- Clean UI using Tailwind CSS
+- Fully responsive layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Project Structure
+
+EMS/
+├── public/
+├── src/
+│ ├── components/
+│ ├── context/
+│ ├── pages/
+│ ├── utils/
+│ └── App.jsx
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **Vite**
+- **Tailwind CSS**
+- **Context API**
+- **LocalStorage**
+- **JavaScript (ES6+)**
+
+---
+
+## 🔧 Installation & Setup
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the repository
+
+git clone https://github.com/vasukurdia/Employee-Management-System.git
+
+
+### 2️⃣ Navigate into project folder
+
+cd Employee-Management-System
+
+### 3️⃣ Install dependencies
+
+npm install
+
+### 4️⃣ Start development server
+
+npm run dev
+
+Project will run at:
+
+http://localhost:5173/
+
+---
+
+## 🔐 Login Credentials
+
+### **Admin Login**
+
+email: admin@me.com
+password: 123
+
+
+### **Sample Employee Login**
+
+email: employee1@example.com
+password: 123
+email: employee2@example.com
+password: 123
+
+---
+
+## 📸 Screenshots  
+
+
+---
+
+## 🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first.
+
+---
+
+## 📄 License
+This project is **open-source** and free to use.
+
+---
+
+# 🎉 Author
+**Vasu Kurdia**  
+Made with ❤️ in React
+
+---
