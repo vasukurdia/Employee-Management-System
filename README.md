@@ -105,6 +105,14 @@ password: 123
 
 ## 📸 Screenshots  
 
+### 🔹 Login Page  
+![Login Page](images/Loginpage.png)
+
+### 🔹 Admin Dashboard  
+![Admin Dashboard](images/AdminDashboard.jpg)
+
+### 🔹 Employee Dashboard  
+![Employee Dashboard](images/EmployeeDashboard.jpg)
 
 ---
 
