@@ -35,11 +35,28 @@ This system helps track employee tasks such as *new tasks, accepted tasks, compl
 EMS/
 ├── public/
 ├── src/
-│ ├── components/
-│ ├── context/
-│ ├── pages/
-│ ├── utils/
-│ └── App.jsx
+│   ├── components/
+|   |   ├──Auth/
+|   |   |  └── Login.jsx
+|   |   ├──Dashboard/
+|   |   |  ├── AdminDashboard.jsx
+|   |   |  └── EmployeeDashboard.jsx
+|   |   ├──other/
+|   |   |  ├── AllTask.jsx
+|   |   |  ├── CreateTask.jsx
+|   |   |  ├── Header.jsx
+|   |   |  └── TaskListNumbers.jsx
+|   |   ├──TaskList
+|   |   |  ├── AcceptTask.jsx
+|   |   |  ├── CompleteTask.jsx
+|   |   |  ├── FailedTask.jsx
+|   |   |  ├── NewTask.jsx
+|   |   |  └── TaskList.jsx
+│   ├── context/
+|   |   └── AuthProvider.jsx
+│   ├── utils/
+|   |   └── localStorage.jsx
+│   └── App.jsx
 ├── .gitignore
 ├── package.json
 ├── tailwind.config.js
