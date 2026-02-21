@@ -1,4 +1,4 @@
-# Employee Management System
+# 🏢 Employee Management System
 
 A simple and efficient Employee Management System built using **React + Vite + Tailwind CSS**.  
 This system helps track employee tasks such as *new tasks, accepted tasks, completed tasks, and failed tasks*.
@@ -31,6 +31,7 @@ This system helps track employee tasks such as *new tasks, accepted tasks, compl
 
 ## 📁 Project Structure
 
+```
 EMS/
 ├── public/
 ├── src/
@@ -44,7 +45,7 @@ EMS/
 ├── tailwind.config.js
 ├── vite.config.js
 └── README.md
-
+```
 
 ---
 
@@ -64,42 +65,48 @@ EMS/
 Follow these steps to run the project locally:
 
 ### 1️⃣ Clone the repository
-
+```bash
 git clone https://github.com/vasukurdia/Employee-Management-System.git
-
+```
 
 ### 2️⃣ Navigate into project folder
-
+```bash
 cd Employee-Management-System
+```
 
 ### 3️⃣ Install dependencies
-
+```bash
 npm install
+```
 
 ### 4️⃣ Start development server
-
+```bash
 npm run dev
+```
 
 Project will run at:
-
+```
 http://localhost:5173/
+```
 
 ---
 
 ## 🔐 Login Credentials
 
 ### **Admin Login**
-
+```
 email: admin@me.com
 password: 123
-
+```
 
 ### **Sample Employee Login**
-
+```
 email: employee1@example.com
 password: 123
+
 email: employee2@example.com
 password: 123
+```
 
 ---
 
