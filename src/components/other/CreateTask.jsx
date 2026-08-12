@@ -54,17 +54,17 @@ const CreateTask = () => {
      }
 
      return (
-          <div className='p-5 bg-[#1c1c1c] mt-5 rounded'>
+          <div className='p-4 sm:p-5 bg-[#1c1c1c] mt-5 rounded'>
                <form onSubmit={submitHandler}
-                    className='flex flex-wrap w-full items-start justify-between'
+                    className='flex flex-col md:flex-row flex-wrap w-full items-start justify-between gap-6'
                >
-                    <div className='w-1/2'>
+                    <div className='w-full md:w-1/2'>
                          <div>
                               <h3 className='text-sm text-gray-300 mb-0.5'>Task Title</h3>
                               <input
                                    value={title}
                                    onChange={(e) => setTitle(e.target.value)}
-                                   className='text-sm py-1 px-2 w-4/5 rounded outline-none bg-transparent border-[1px] border-gray-400 mb-4'
+                                   className='text-sm py-1 px-2 w-full rounded outline-none bg-transparent border-[1px] border-gray-400 mb-4'
                                    type="text"
                                    placeholder='Make a UI design'
                               />
@@ -75,7 +75,7 @@ const CreateTask = () => {
                               <input
                                    value={date}
                                    onChange={(e) => setDate(e.target.value)}
-                                   className='text-sm py-1 px-2 w-4/5 rounded outline-none bg-transparent border-[1px] border-gray-400 mb-4'
+                                   className='text-sm py-1 px-2 w-full rounded outline-none bg-transparent border-[1px] border-gray-400 mb-4'
                                    type="Date"
                               />
                          </div>
@@ -85,7 +85,7 @@ const CreateTask = () => {
                               <input
                                    value={asignTo}
                                    onChange={(e) => setAsignTo(e.target.value)}
-                                   className='text-sm py-1 px-2 w-4/5 rounded outline-none bg-transparent border-[1px] border-gray-400 mb-4'
+                                   className='text-sm py-1 px-2 w-full rounded outline-none bg-transparent border-[1px] border-gray-400 mb-4'
                                    type="text"
                                    placeholder='employee name'
                               />
@@ -96,14 +96,14 @@ const CreateTask = () => {
                               <input
                                    value={category}
                                    onChange={(e) => setCategory(e.target.value)}
-                                   className='text-sm py-1 px-2 w-4/5 rounded outline-none bg-transparent border-[1px] border-gray-400 mb-4'
+                                   className='text-sm py-1 px-2 w-full rounded outline-none bg-transparent border-[1px] border-gray-400 mb-4'
                                    type="text"
                                    placeholder='design, dev, etc'
                               />
                          </div>
                     </div>
 
-                    <div className='w-2/5 flex flex-col items-start'>
+                    <div className='w-full md:w-2/5 flex flex-col items-start'>
                          <h3 className='text-sm text-gray-300 mb-0.5'>Description</h3>
                          <textarea
                               value={description}
